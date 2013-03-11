@@ -1,6 +1,6 @@
 # express-tgz
 
-express-tgz allows you to do `res.tar(files)` in [express](http://expressjs.com/), without creating any intermediary files on disk, and in 100% pure node. [![build status](https://secure.travis-ci.org/thrackle/express-zip.png)](http://travis-ci.org/thrackle/express-zip)
+express-tgz allows you to do `res.tgz(files)` in [express](http://expressjs.com/), without creating any intermediary files on disk, and in 100% pure node.
 
 ```js
 var app = require('express')();
@@ -27,8 +27,6 @@ Borrows heavily from thrackle's [express-zip](https://github.com/thrackle/expres
 ## License
 
 (The MIT License)
-
-Copyright (c) 2012 Craig McDonald (thrackle) &lt;oss@thrackle.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
