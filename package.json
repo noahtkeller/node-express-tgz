@@ -1,7 +1,7 @@
 {
     "name": "express-tgz",
     "description": "stream multiple files to the browser as a single .tar.gz, in pure node.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Noah Keller",
         "email": "noahtkeller@gmail.com",
