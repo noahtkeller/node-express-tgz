@@ -10,7 +10,13 @@ var app = require('express')();
 var tgz = require('express-tgz');
 
 app.get('/', function(req, res) {
-  res.tgz('/some/directory', 'some_dir.tar.gz');
+  /**
+   * 1st arg: the directory
+   * 2nd arg: the output name
+   * 3rd arg: include the top level directory in the output
+   * 4th arg: callback function
+   */
+  res.tgz('/some/directory', 'some_dir.tar.gz', false);
 });
 
 app.listen(3000);
@@ -22,7 +28,7 @@ app.listen(3000);
 
 ## Credits
 
-    Borrows heavily from thrackle's [express-zip](https://github.com/thrackle/express-zip).
+    Borrows heavily from thrackle's express-zip: https://github.com/thrackle/express-zip
 
 ## License
 

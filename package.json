@@ -1,7 +1,7 @@
 {
     "name": "express-tgz",
     "description": "stream multiple files to the browser as a single .tar.gz, in pure node.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": {
         "name": "Noah Keller",
         "email": "noahtkeller@gmail.com",
@@ -14,7 +14,9 @@
     },
     "keywords": [
         "express",
+        "tgz",
         "tar",
+        "gzip",
         "native",
         "stream",
         "create"
@@ -28,10 +30,7 @@
         "node": "0.6 || 0.8"
     },
     "readmeFilename": "README.md",
-    "_id": "express-tgz@0.0.1",
-    "dist": {
-        "shasum": "d51cbf1c95055497c4733d8b2b39bb586108d5ec"
-    },
+    "_id": "express-tgz@0.0.3",
     "_from": "express-tgz@",
-    "_resolved": "https://registry.npmjs.org/express-tgz/-/express-tgz-0.0.1.tgz"
+    "_resolved": "https://registry.npmjs.org/express-tgz/-/express-tgz-0.0.3.tgz"
 }
