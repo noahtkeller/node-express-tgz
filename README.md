@@ -4,6 +4,7 @@
 
     express-tgz allows you to do `res.tgz(directory, filename)` in [express](http://expressjs.com/), without creating any intermediary files on disk, and in 100% pure node.
 
+## Example
 ```js
 var app = require('express')();
 var tgz = require('express-tgz');
