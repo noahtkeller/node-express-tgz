@@ -1,16 +1,13 @@
 # express-tgz
 
-express-tgz allows you to do `res.tgz(files)` in [express](http://expressjs.com/), without creating any intermediary files on disk, and in 100% pure node.
+express-tgz allows you to do `res.tgz(directory, filename)` in [express](http://expressjs.com/), without creating any intermediary files on disk, and in 100% pure node.
 
 ```js
 var app = require('express')();
 var tgz = require('express-tgz');
 
 app.get('/', function(req, res) {
-  res.tar([
-    { path: '/path/to/file1.name', name: '/path/in/zip/file1.name' }
-    { path: '/path/to/file2.name', name: 'file2.name' }
-  ]);
+  res.tgz('/some/directory', 'some_dir.tar.gz');
 });
 
 app.listen(3000);
