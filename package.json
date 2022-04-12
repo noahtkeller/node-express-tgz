@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/noahtkeller/express-tgz"
+        "url": "git://github.com/noahtkeller/express-tgz.git"
     },
     "main": "index",
     "engines": {
